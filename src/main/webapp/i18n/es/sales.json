@@ -18,10 +18,10 @@
       },
       "state": "State",
       "comprador": "Comprador",
-      "fecha": "Fecha",
+      "fecha": "Fecha de entrega",
       "pagado": "Pagado",
-      "precio": "Precio",
-      "product": "Product"
+      "precio": "Precio total",
+      "product": "Producto"
     }
   }
 }
