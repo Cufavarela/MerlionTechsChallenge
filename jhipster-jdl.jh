@@ -1,0 +1,16 @@
+entity Product {
+name String
+}
+entity Sales {
+state State
+comprador String
+fecha String
+pagado String
+precio String
+}
+enum State {
+IN_CHARGE, SHIPPED, DELIVERED
+}
+relationship ManyToOne {
+Sales{product} to Product
+}
