@@ -1,7 +1,7 @@
 {
   "home": {
-    "title": "¡Bienvenido, Java Hipster!",
-    "subtitle": "Esta es su página de inicio",
+    "title": "¡Bienvenido!",
+    "subtitle": "Este desafío pertenece a <b>Facundo Varela</b>",
     "logged": {
       "message": "Está conectado como \"{{username}}\"."
     },
@@ -11,9 +11,10 @@
       "stackoverflow": "JHipster en Stack Overflow",
       "bugtracker": "JHipster seguimiento de errores",
       "chat": "Sala de chat pública de JHipster",
-      "follow": "contacto @jhipster en Twitter"
+      "follow": "contacto @jhipster en Twitter",
+      "description": "Hacer click en <b>'Movimientos'</b> para ver la ventana correspondiente al desafío."
     },
-    "like": "Si te gusta JHipster, danos una estrella en",
+    "like": "Si les gustó, pueden contactarme en mi ",
     "github": "GitHub"
   }
 }
