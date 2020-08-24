@@ -33,3 +33,14 @@ export const Home = props => (
     </NavLink>
   </NavItem>
 );
+
+export const Movements = props => (
+  <NavItem>
+    <NavLink tag={Link} to="/movements" className="d-flex align-items-center">
+      <FontAwesomeIcon icon="sync" />
+      <span>
+        <Translate contentKey="global.menu.movements">Movimientos</Translate>
+      </span>
+    </NavLink>
+  </NavItem>
+);
