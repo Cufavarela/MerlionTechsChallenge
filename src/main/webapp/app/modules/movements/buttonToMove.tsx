@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
+import { makeStyles, Theme } from '@material-ui/core';
 import { getEntities, updateEntity } from '../../entities/sales/sales.reducer';
 import { IRootState } from 'app/shared/reducers';
 import { connect } from 'react-redux';
@@ -8,8 +9,20 @@ import { State } from 'app/shared/model/enumerations/state.model';
 
 export interface IBotonProps extends IOwnProps, DispatchProps {}
 
+const useStyles = makeStyles((theme: Theme) => ({
+  colorBoton: {
+    backgroundColor: "#5E99C5",
+    color: "#fff",
+    "&:hover": {
+      backgroundColor: "#2A6A9E"
+    }
+  },
+}));
+
 function buttonToMove (props: IBotonProps) {
   const { sale, accion } = props;
+  const classes = useStyles();
+
 
   function cambiarEstado () {
     switch (sale.state) {
@@ -24,7 +37,7 @@ function buttonToMove (props: IBotonProps) {
     }
   }
     if(sale.state !== State.DELIVERED || accion === "") {
-      return <Button onClick={cambiarEstado} variant="contained" color="primary">{accion}</Button>;
+      return <Button onClick={cambiarEstado} variant="contained" className={classes.colorBoton} size="small" >{accion}</Button>;
     }
     return null;
 }

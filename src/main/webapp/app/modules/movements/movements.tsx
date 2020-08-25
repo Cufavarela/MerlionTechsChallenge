@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import TabScreen from './tabsScreen'
+import TabScreen from './tabsScreen';
+import './movements.scss';
 
 
 

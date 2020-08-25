@@ -52,6 +52,9 @@ const useStyles = makeStyles((theme: Theme) => ({
     flexGrow: 1,
     backgroundColor: theme.palette.background.paper,
   },
+  header: {
+    backgroundColor: "#2A6A9E",
+  },
 }));
 
 function SimpleTabs(props: ListaProps) {
@@ -85,11 +88,11 @@ function SimpleTabs(props: ListaProps) {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
-        <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
-          <Tab label="ENCARGADOS" />
-          <Tab label="ENVIADOS" />
-          <Tab label="ENTREGADOS" />
+      <AppBar position="static" className={classes.header}>
+        <Tabs value={value} onChange={handleChange} aria-label="simple tabs example" TabIndicatorProps={{ style: { backgroundColor:"#fff", }}} >
+          <Tab label="ENCARGADOS" disableRipple={true} className="sinFocus"/>
+          <Tab label="ENVIADOS" disableRipple={true} className="sinFocus"/>
+          <Tab label="ENTREGADOS" disableRipple={true} className="sinFocus"/>
         </Tabs>
       </AppBar>
 

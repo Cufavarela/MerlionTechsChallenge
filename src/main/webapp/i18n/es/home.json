@@ -1,7 +1,7 @@
 {
   "home": {
     "title": "¡Bienvenido!",
-    "subtitle": "Este desafío pertenece a <b>Facundo Varela</b>",
+    "subtitle": "Este desafío fue realizado por <b>Facundo Varela</b>",
     "logged": {
       "message": "Está conectado como \"{{username}}\"."
     },

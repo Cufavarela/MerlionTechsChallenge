@@ -15,16 +15,16 @@ export const Home = (props: IHomeProp) => {
 
   return (
     <Row>
-      <Col md="9">
+      <Col md="8">
         <h2>
           <Translate contentKey="home.title">Welcome</Translate>
         </h2>
         <p className="lead">
-          <Translate contentKey="home.subtitle">This is <b>Facundo</b>'s challenge</Translate>
+          <Translate contentKey="home.subtitle">This is challenge was made by <b>Facundo Varela</b></Translate>
         </p>
         {account && account.login ? (
           <>
-          <div>
+          <div className="loginSuccessWrapper">
             <Alert color="success">
               <Translate contentKey="home.logged.message" interpolate={{ username: account.login }}>
                 You are logged in as user {account.login}.
@@ -33,14 +33,14 @@ export const Home = (props: IHomeProp) => {
           </div>
           <div>
             <p className="">
-              <Translate contentKey="home.link.description">Click on the <b>'Movements'</b> button to find the challenge window.</Translate>
+              <Translate contentKey="home.link.description">Click on the <b>Movements</b> button to find the challenge window.</Translate>
             </p>
             <p>
               <Translate contentKey="home.like">If you like it, fell free to send an </Translate>{' '}
               <a href="mailto:cufa.varela@gmail.com" target="_blank" rel="noopener noreferrer">
                 Email
               </a>
-              .
+              .😉
             </p>
           </div>
           </>
@@ -67,8 +67,9 @@ export const Home = (props: IHomeProp) => {
           </div>
         )}
       </Col>
-      <Col md="3" className="pad">
-        <span className="hipster rounded" />
+      <Col md="4" className="pad logoMerlionWrapper">
+        {/* <span className="hipster rounded" /> */}
+        <img className="logoMerlion" src="../../../content/images/LogoMerlion.png"></img>
       </Col>
     </Row>
   );
