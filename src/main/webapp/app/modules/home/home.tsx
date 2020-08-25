@@ -40,7 +40,7 @@ export const Home = (props: IHomeProp) => {
               <a href="mailto:cufa.varela@gmail.com" target="_blank" rel="noopener noreferrer">
                 Email
               </a>
-              .😉
+              📧
             </p>
           </div>
           </>

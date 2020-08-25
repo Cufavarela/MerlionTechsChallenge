@@ -47,7 +47,7 @@ Navbar styles
 }
 .navbar-version {
   font-size: 10px;
-  color: $header-color-secondary;
+  color: $third;
   padding: 0 0 0 10px;
 }
 
@@ -69,7 +69,7 @@ Navbar styles
   font-size: 24px;
   color: $header-color;
   &:hover {
-    color: $header-color-hover;
+    color: $third;
     text-decoration: none;
   }
 }
