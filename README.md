@@ -18,17 +18,18 @@ debe verse reflejado sin necesidad de actualizar/refrescar la pantalla.
 ## Resolución
 
 El desafío está en la rama **TestProducto**.
+<br>
 Hacer click en el botón 🔄**Movimientos** para ver la ventana correspondiente al ejercicio.
 
 <br>
 
-## Herramientas
+## Herramientas 🧰
 
-<img align="left" alt="Git" width="24px" src="./assets/jhipster.svg">
+<img align="left" alt="Jhipster" width="24px" src="./assets/jhipster.svg">
 <img align="left" alt="Git" width="24px" src="./assets/git.svg">
-<img align="left" alt="Git" width="24px" src="./assets/typescritp.svg">
-<img align="left" alt="Git" width="24px" src="./assets/materialUI.svg">
+<img align="left" alt="typescirpt" width="24px" src="./assets/typescript.svg">
 <img align="left" alt="Bootstrap" width="24px" src="./assets/bootstrap.svg">
+<img align="left" alt="MUI" width="24px" src="./assets/materialUI.svg">
 <img align="left" alt="React" width="24px" src="./assets/react.svg">
 <img align="left" alt="SASS" width="24px" src="./assets/sass.svg">
 <img align="left" alt="Visual Studio Code" width="24px" src="./assets/visualstudiocode.svg">
